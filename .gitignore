@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Frontend
+node_modules/
+dist/
+
+# Data and ML artifacts
+ml/data/raw/
+ml/data/processed/
+ml/artifacts/
+*.pt
+*.pth
+*.safetensors
+*.joblib
+
+# Logs and local configuration
+*.log
+.DS_Store
